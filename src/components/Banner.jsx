@@ -21,7 +21,7 @@ useEffect(()=>{
 
   return (
    
-    <div style={{height:'600px',backgroundImage:`url(${base_url}${Movie?.backdrop_path})`,backgroundSize:'cover',backgroundAttachment:'fixed',backgroundPosition:'center'}}>
+    <div style={{height:'600px',backgroundImage:`url(${base_url}${Movie?.backdrop_path})`,backgroundSize:'cover',backgroundAttachment:'fixed',backgroundPosition:'fixed'}}>
     <div className="banner-content">
       <h1>{Movie?.name}</h1>
       <button className='subs-btn'>Subscribe to watch</button>
